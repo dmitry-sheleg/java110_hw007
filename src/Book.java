@@ -19,7 +19,7 @@ public class Book {
     }
 
     public boolean matches(String word) {
-        return author.name.contains(word) || author.surname.contains(word);
+        return title.contains(word) ||author.name.contains(word) || author.surname.contains(word);
     }
 
     public int estimatePrice() {
