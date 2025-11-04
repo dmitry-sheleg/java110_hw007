@@ -11,7 +11,6 @@ public class Book {
         this.releaseYear = releaseYear;
         this.author = author;
         this.pages = pages;
-
     }
 
     public boolean isBig() {
